@@ -16,6 +16,7 @@ public class DemoController {
 //    Если мы прописываем права доступа черех SecurityConfig, то аннотацию @PreAuthorize("hasRole('USER')")
 //    над каждым методом контроллера не нужно делать?
 
+
     @GetMapping("/")
     public String homePage() {return "home";}
 
